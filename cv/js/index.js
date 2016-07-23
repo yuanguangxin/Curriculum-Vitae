@@ -8,7 +8,7 @@ $(document).ready(function() {
     if (mobilecheck()) {
         $('html').addClass('mobile');
     } else {
-        var en = ['Home', 'Projects', 'Professions', 'Education', 'Contact Me'];
+        var en = ['Home', 'Projects', 'Professions', 'Experience', 'Contact Me'];
         var cn = ['首页', '项目', '技能', '经历','联系'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
         $('.section').addClass('initing');
